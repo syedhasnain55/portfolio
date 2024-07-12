@@ -1,0 +1,41 @@
+/* Body styles */
+body {
+    transition: background-color 0.3s ease;
+    background-color: #ffffff; /* Light background color */
+    color: #343a40; /* Dark text color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff; /* White color for brand text */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8); /* Semi-transparent white color for links */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255); /* Full white color on hover */
+}
+
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Bootstrap primary color */
+}
+
+.btn-primary:hover {
+    background-color: #0069d9; /* Darker shade of primary color on hover */
+    border-color: #0062cc; /* Darker shade of primary color on hover */
+}
+
+/* Footer styles (if applicable) */
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+}
